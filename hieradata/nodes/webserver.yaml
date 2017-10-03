@@ -1,0 +1,10 @@
+---
+classes:
+  - '::profile::nginx'
+    #  - '::profile::php'
+  - '::dummy_service'
+
+service:
+  'nginx':
+    'command': '/usr/sbin/nginx'
+
